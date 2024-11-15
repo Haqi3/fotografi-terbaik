@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumentasi Foto</title>
+    <style>
+        /* Mengatur gaya umum untuk halaman */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Header */
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        
+        /* Judul Halaman */
+        h1 {
+            margin: 0;
+        }
+        
+        /* Galeri */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 10px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        
+        /* Gaya untuk setiap item galeri */
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        /* Gambar di galeri */
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.2s;
+        }
+        
+        /* Hover efek pada gambar */
+        .gallery-item:hover img {
+            transform: scale(1.05);
+        }
+        
+        /* Keterangan gambar */
+        .caption {
+            position: absolute;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            width: 100%;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bagian Header -->
+    <header>
+        <h1>Dokumentasi Foto</h1>
+        <p>Koleksi dokumentasi momen-momen berharga</p>
+    </header>
+
+    <!-- Bagian Galeri Foto -->
+    <div class="gallery">
+        <!-- Setiap item galeri -->
+        <div class="gallery-item">
+            <img src="images/hp.jpg" alt="Dokumentasi Foto 1">
+            <div class="caption">Dokumentasi Foto 1</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="images/nn.jpg" alt="Dokumentasi Foto 2">
+            <div class="caption">Dokumentasi Foto 2</div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="images/nnn.jpg" alt="Dokumentasi Foto 3">
+            <div class="caption">Dokumentasi Foto 3</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/a.jpg" alt="Dokumentasi Foto 3">
+            <div class="caption">Dokumentasi Foto 4</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/b.jpg" alt="Dokumentasi Foto 3">
+            <div class="caption">Dokumentasi Foto 5</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/c.jpg" alt="Dokumentasi Foto 3">
+            <div class="caption">Dokumentasi Foto 6</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/d" alt="Dokumentasi Foto 3">
+            <div class="caption">Dokumentasi Foto 7</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/e" alt="Dokumentasi Foto 3">
+            <div class="caption">Dokumentasi Foto 8</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/f.jpg" alt="Dokumentasi Foto 3">
+            <div class="caption">Dokumentasi Foto 9</div>
+        </div>
+        <div class="gallery-item">
+            <img src="images/g.jpg" alt="Dokumentasi Foto 3">
+            <div class="caption">Dokumentasi Foto 10</div>
+        </div>
+        
+        <!-- Tambahkan foto lainnya di sini -->
+    </div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Ke Dashboard</title>
+    <style>
+        /* Gaya untuk tombol dalam kotak */
+        .button {
+            display: inline-block;
+            margin: 20px;
+            text-align: center;
+        }
+
+        .button a {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff; /* Warna biru */
+            text-decoration: none;
+            border-radius: 8px; /* Membuat ujung tombol melengkung */
+            border: 2px solid #007bff; /* Border warna sama dengan background */
+            transition: all 0.3s ease; /* Transisi untuk efek hover */
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
+        }
+
+        /* Efek hover */
+        .button a:hover {
+            background-color: #0056b3; /* Mengubah warna saat hover */
+            color: #fff; /* Warna teks tetap putih */
+            border-color: #0056b3; /* Mengubah warna border saat hover */
+            box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3); /* Menambah bayangan saat hover */
+            transform: translateY(-2px); /* Tombol naik sedikit saat di-hover */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="button">
+        <a href="index.html">Ke Dashboard</a>
+    </div>
+
+</body>
+
+</body>
+</html>
